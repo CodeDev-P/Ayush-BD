@@ -5,6 +5,28 @@ body{
     color: white;
 }
 
+/*.masked-overflow{
+    --scrollbar-width: 8px;
+    --mask-height: 32px;
+    overflow-y: auto;
+    height: 900px;
+    padding-bottom: var(--mask-height);
+    padding-right: 20px;
+    --mask-image-content: linear-gradient(
+        to bottom,
+        transparent,
+        black var(--mask-height),
+        black calc(100% - var(--mask-height)),
+        transparent
+    );
+    --mask-size-content: calc(100% - var(--scrollbar-width)) 100%;
+    --mask-image-scrollbar: linear-gradient(black, black);
+    --mask-size-scrollbar: var(--scrollbar-width) 100%;
+    mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+    mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+    mask-position: 0 0, 100% 0;
+    mask-repeat: no-repeat, no-repeat;
+}*/
 #Ayush_BD-img {
     width: 150px;
     border: 6px solid palevioletred ;
@@ -118,11 +140,8 @@ h1, h2, h3, h4, p {
     background-size: 400px 400px;
 }
 
-#footer{
-    margin-top: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 250px;
+.footer{
+    margin-top: 100px;
     background:none;
     text-align:center;
     font: size 3em;
@@ -130,3 +149,31 @@ h1, h2, h3, h4, p {
     flex-direction: column;
     align-items:center;
 }
+
+#Footer-Img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer-video{
+    background: black;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    transform: rotate(-90deg);
+ }
+
+ #hr-div-1{
+    margin-top: 100px;
+ }
+
+ #hr-div-2{
+    margin-top: 100px;
+ }
+
+ #hr-div-3{
+    margin-top: 100px;
+ }
+ 
+ #hr-div-4{
+    margin-top: 100px;
+    background-color: blue;
+ }
