@@ -2,9 +2,7 @@ body{
     text-align: center;
     font-family: 'Happy Monkey', cursive;
     background: linear-gradient(#a2d2ff,Pink,palevioletred,Red);
-    color: white;
-}
-
+    color: white;}
 /*.masked-overflow{
     --scrollbar-width: 8px;
     --mask-height: 32px;
@@ -27,50 +25,33 @@ body{
     mask-position: 0 0, 100% 0;
     mask-repeat: no-repeat, no-repeat;
 }*/
-
 #Ayush_BD-img {
     width: 150px;
     border: 6px solid palevioletred ;
-    border-radius: 50%
-}
-
+    border-radius: 50%}
 h1, h2, h3, h4, p {
-    text-shadow: 0px 0px 2px black;
-}
-
+    text-shadow: 0px 0px 2px black;}
 #age {
     background: palevioletred;
     padding: 5px 10px;
     border-radius: 5px;
-    margin: 15px 0px 5px 0px;
-}
-
+    margin: 15px 0px 5px 0px;}
 #date {
     background: palevioletred;
     padding: 5px 10px;
     border-radius: 5px;
-    margin: 0px 0px 5px 0px;
-}
-
+    margin: 0px 0px 5px 0px;}
 #header{
     margin-top: 215px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
+    align-items: center;}
 .Gift-Section{
-    margin-top: 180px;
-}
-
+    margin-top: 180px;}
 .gift-title{
-    margin-bottom: 0px;
-}
-
+    margin-bottom: 0px;}
 .Gift-Hint{
-    margin-top: 1px;
-}
-
+    margin-top: 1px;}
 .Gift-img {
     margin: 0 auto;
     height: 400px;
@@ -78,69 +59,41 @@ h1, h2, h3, h4, p {
     border: 6px solid white;
     border-radius: 10px;
     background-image: url(Images/Gift-Top_400px.jpg);
-    background-size: 400px 400px;
-}
-
+    background-size: 400px 400px;}
 #Gift-img-Anime:hover {
-    background-image: url(Images/Love.gif);
-}
-
+    background-image: url(Images/Love.gif);}
 #Gift-Section-02 {
-    margin-top: 20px;
-}
-
+    margin-top: 20px;}
 #gift-img-velorant {
-    margin-top: 20px;
-}
-
+    margin-top: 20px;}
 #Gift-img-Velorant:hover {
     margin-top: 20px;
     background-image: url(Images/valorant.gif);
-    background-size: 400px 400px;
-}
-
+    background-size: 400px 400px;}
 #Gift-Section-03 {
-    margin-top: 20px;
-}
-
+    margin-top: 20px;}
 #gift-img-Chess {
-    margin-top: 20px;
-}
-
+    margin-top: 20px;}
 #Gift-img-chess:hover {
     margin-top: 20px;
     background-image: url(Images/Chess.gif);
-    background-size: 400px 400px;
-}
-
+    background-size: 400px 400px;}
 #Gift-Section-04 {
-    margin-top: 80px;
-}
-
+    margin-top: 80px;}
 #gift-img-No {
-    margin-top: 20px;
-}
-
+    margin-top: 20px;}
 #Gift-img-No:hover {
     margin-top: 20px;
     background-image: url(Images/Phut\ phone\ down.gif);
-    background-size: 400px 400px;
-}
-
+    background-size: 400px 400px;}
 #Gift-Section-05 {
-    margin-top: 10px;
-}
-
+    margin-top: 10px;}
 #gift-img-Hit {
-    margin-top: 20px;
-}
-
+    margin-top: 20px;}
 #Gift-img-Hit:hover {
     margin-top: 20px;
     background-image: url(Images/Phone_Hit.gif);
-    background-size: 400px 400px;
-}
-
+    background-size: 400px 400px;}
 .footer{
     margin-top: 100px;
     background:none;
@@ -148,33 +101,21 @@ h1, h2, h3, h4, p {
     font: size 3em;
     display: flex;
     flex-direction: column;
-    align-items:center;
-}
-
+    align-items:center;}
 #Footer-Img{
     margin-top: 10px;
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px;}
 #footer-video{
     background: black;
     margin-top: 0px;
     margin-bottom: 10px;
-    transform: rotate(-90deg);
- }
-
+    transform: rotate(-90deg);}
  #hr-div-1{
-    margin-top: 100px;
- }
-
+    margin-top: 100px;}
  #hr-div-2{
-    margin-top: 100px;
- }
-
+    margin-top: 100px;}
  #hr-div-3{
-    margin-top: 100px;
- }
- 
+    margin-top: 100px;}
  #hr-div-4{
     margin-top: 100px;
-    background-color: blue;
- }
+    background-color: blue;}
